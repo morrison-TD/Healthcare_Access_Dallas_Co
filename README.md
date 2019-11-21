@@ -1,5 +1,5 @@
 
-###### Healthcare Facility Accessiblity
+# Healthcare Facility Accessiblity
 ----------------------------
 The Goal of the Healthcare Accessiblity project was to exmine the access of healthcare facilities in Dallas County by income level.
 
@@ -7,7 +7,7 @@ The Goal of the Healthcare Accessiblity project was to exmine the access of heal
 
 
 
-##### Data
+## Data
 ----------
 * US Census Data was used to grab Poverty Ratings, Income Levels and Zipcodes. (Resources/DallasCensusData.csv)
 
@@ -16,7 +16,7 @@ The Goal of the Healthcare Accessiblity project was to exmine the access of heal
 * Google's Geocoding was used to return the locations of Google registered "Urgent Care", non-emergency facilities within Dallas County. These facilites are not federally rated. (Resources/ClinicMasterComplete.csv)
 
 
-##### Cleaning the Data
+## Cleaning the Data
 --------------
 First we cleaned US Census Data to isolate the zipcodes, we then pushed those zipcodes to Google Geocode to extract the zipcodes within Dallas County.  The Census data included a Poverty Index Rating, we used this index to create a Google Heatmap to show the impoverished areas.
 
@@ -33,7 +33,7 @@ Finally, we requested all the registered "urgent care" clinics within the Dallas
 
 ![Dallas County Urgent Care Clinics](/images/UrgentCaresDallasCounty.png)
 
-###### Findings
+# Findings
 -----------
 
 Based on the data we found that hospitals were more likely to be located outside of income areas:
